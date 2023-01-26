@@ -496,8 +496,9 @@ footer {
     gap: 3.8rem;
     justify-content: center;
     align-items: center;
-    padding: 0 8vh 3rem 8vh;
+    padding: 0 9% 3rem 9%;
     /* background: red; */
+    background-color: red;
 }
 .links img {
     width: 100%;
