@@ -500,12 +500,11 @@ footer {
     /* background: red; */
 }
 .links img {
-    width: 100%;
     background-color: rgb(252, 241, 252);
     padding: 1.5rem 0;    
 }
 .section4 {
-    padding: 0 .75rem;
+    padding: 0 ;
     background: white;
     text-align: center;
     font-weight:200;
@@ -517,74 +516,74 @@ footer {
     font-size: 25px;
 }
 .projects img {
-    padding: .4rem;
+    padding: .2rem;
     position: relative;
 }
 .projects img:nth-child(1) {
     width: calc(51% - var(--gap));
 }
 .projects img:nth-child(2) {
-    width: calc(50.3% - var(--gap));
+    width: calc(53% - var(--gap));
 }
 .projects img:nth-child(3) {
-    width: calc(50.3% - var(--gap));
+    width: calc(51.3% - var(--gap));
 }
 .projects img:nth-child(4) {
-    width: calc(51% - var(--gap));
+    width: calc(52.4% - var(--gap));
 }
 .projects img:nth-child(5) {
-    width: calc(30.5% - var(--gap));
+    width: calc(31.5% - var(--gap));
     height: 100%;
 }
 .projects img:nth-child(6) {
-    width: calc(41.2% - var(--gap));
+    width: calc(42.2% - var(--gap));
     height: 100%;
 }
 .projects img:nth-child(7) {
-    width: calc(30.1% - var(--gap));
+    width: calc(32.1% - var(--gap));
     height: 47%;
 }
 .projects img:nth-child(8) {
-    width: calc(47.5% - var(--gap));
+    width: calc(48.5% - var(--gap));
 }
 .projects img:nth-child(9) {
-    width: calc(27.1% - var(--gap));
+    width: calc(28.6% - var(--gap));
 }
 .projects img:nth-child(10) {
-    width: calc(27.1% - var(--gap));
+    width: calc(28.6% - var(--gap));
 }
 .projects img:nth-child(11) {
-    width: calc(28% - var(--gap));
+    width: calc(30% - var(--gap));
 }
 .projects img:nth-child(12) {
-    width: calc(35.5% - var(--gap));
+    width: calc(37.5% - var(--gap));
 }
 .projects img:nth-child(13) {
-    width: calc(38% - var(--gap));
+    width: calc(38.5% - var(--gap));
 }
 .projects img:nth-child(14) {
-    width: calc(25% - var(--gap));
+    width: calc(26% - var(--gap));
 }
 .projects img:nth-child(15) {
     width: calc(35% - var(--gap));
 }
 .projects img:nth-child(16) {
-    width: calc(21.2% - var(--gap));
+    width: calc(23.5% - var(--gap));
 }
 .projects img:nth-child(17) {
-    width: calc(21% - var(--gap));
+    width: calc(23.5% - var(--gap));
 }
 .projects img:nth-child(18) {
-    width: calc(47% - var(--gap));
+    width: calc(48% - var(--gap));
 }
 .projects img:nth-child(19) {
-    width: calc(54% - var(--gap));
+    width: calc(56% - var(--gap));
 }
 .projects img:nth-child(20) {
-    width: calc(42% - var(--gap));
+    width: calc(43% - var(--gap));
 }
 .projects img:nth-child(21) {
-    width: calc(59% - var(--gap));
+    width: calc(60.5% - var(--gap));
 }
 
 
@@ -666,23 +665,25 @@ footer {
     .footerleft {
         font-size: .8rem;
         flex-direction: column;
-    }
-    .footerleft  {
         padding: 0;
         gap: 0;
     }
+    .footerright{
+        flex-direction: column;
+        padding: 0;
+        gap: .2rem;
+    }
+    
     .footerleft img {
         width: 70%;
         padding-bottom: .5rem;
     }
     .footerright a{
         font-size: .8rem;
+        padding: 0 .5rem;
     }
 }
 @media only screen and (max-width:630px){
-    .links img {
-        width: 605;
-    }
     .section3-header{
         font-size: 1.8rem;
         padding-left: 0;
@@ -698,16 +699,23 @@ footer {
     .section1-note h3{
         font-size: 20px;
     }
+    .section1-note{
+        padding: 2rem .5rem;
+    }
     .section1-note h5{
         font-size: 14px;
     }
 
     .links {
-        padding: 0 ;
+        padding: 0 2rem ;
         gap: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .links img{
-        width: 50%;
+        width:80px;
+        padding: .6rem 0;
+        gap:  0;
     }
     .footerright a{
         font-size: .6rem;
@@ -733,7 +741,7 @@ footer {
         font-size: 20px;
     }
     .section3-header{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         padding-left: 0;
         padding-right: 0;
     }
