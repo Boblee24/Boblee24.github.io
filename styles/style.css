@@ -493,12 +493,11 @@ footer {
     display:flex;
     flex-wrap: wrap;
     margin: 1rem auto 0 auto;
-    gap: 3.8rem;
+    gap: 8%;
     justify-content: center;
     align-items: center;
-    padding: 0 9% 3rem 9%;
-    /* background: red; */
-    background-color: red;
+    padding: 0 8% 3rem 8%;
+    width: 100%;
 }
 .links img {
     width: 100%;
@@ -599,24 +598,31 @@ footer {
     justify-content: space-between;
 }
 
-@media only screen and (max-width:1140px){
+@media only screen and (max-width:1145px){
+    .links img{
+        width: 100%;
+    }
+    .links {
+        padding: 0 4% 3rem 4%;
+        gap: 6%;
+    }
+}
+@media only screen and (max-width:1042px){
+    .links {
+        padding: 0 3% 3rem 3%;
+        gap: 6%;
+    }
     .links img{
         width: 100%;
     }
 }
-@media only screen and (max-width:1030px){
-    .links {
-        padding: 0 3vh 3rem 3vh;
-        gap: 3.5rem;
-    }
-    .links img{
-        width: 80%;
-    }
-}
 @media only screen and (max-width:989px){
     .links{
-        gap: 3.8rem;
-        padding: 0 3vh 3rem 4vh;
+        gap: 6%;
+        padding: 0 3% 3rem 3%;
+    }
+    .links img {
+        width: 90%;
     }
     footer {
         padding: 1rem 1rem;
