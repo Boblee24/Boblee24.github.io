@@ -737,6 +737,12 @@ footer {
     .section5 h2 {
         font-size: 20px;
     }
+    .container{
+        height: 400px;
+    }
+    .slide img {
+        height: 400px;
+    }
     .section3-header{
         font-size: 1.6rem;
         padding-left: 0;
@@ -775,13 +781,13 @@ footer {
 }
 @media only screen and (max-width:350px){
     .section3-header{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding-left: 0;
         padding-right: 0;
     }
     .section3-header span:nth-child(1):after, .section3-header span:nth-child(2):after, .section3-header span:nth-child(3):after{
-        font-size: .9rem;
+        font-size: .8rem;
         word-spacing: 0;
-        top: -1.4rem;
+        top: -1rem;
     }
 }
